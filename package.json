@@ -1,0 +1,25 @@
+{
+  "name": "phantomjs",
+  "version": "2.0.0",
+  "description": "Headless WebKit with JS API",
+  "main": "install.js",
+  "scripts": {
+    "test": "nodeunit --reporter=minimal test/tests.js && eslint install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niterain/phantomjs.git"
+  },
+  "keywords": [
+    "phantomjs"
+  ],
+  "author": "levi stanley <levi@eneservices.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niterain/phantomjs/issues"
+  },
+  "homepage": "https://github.com/niterain/phantomjs#readme",
+  "dependencies": {
+    "which": "^1.2.1"
+  }
+}
