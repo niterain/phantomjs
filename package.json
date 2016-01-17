@@ -20,6 +20,14 @@
   },
   "homepage": "https://github.com/niterain/phantomjs#readme",
   "dependencies": {
+    "adm-zip": "^0.4.7",
+    "fs-extra": "^0.26.4",
+    "kew": "^0.7.0",
+    "md5": "^2.0.0",
+    "npmconf": "^2.1.2",
+    "progress": "^1.1.8",
+    "request": "^2.67.0",
+    "request-progress": "^1.0.2",
     "which": "^1.2.1"
   }
 }
